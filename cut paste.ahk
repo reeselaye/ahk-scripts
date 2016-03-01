@@ -40,14 +40,6 @@ XButton2::
     Send {Control down}{x}{Control up}
 return   
 
-RButton::
-    KeyWait RButton, T0.5
-    if ErrorLevel{
-        Send {Control down}{c}{Control up}
-        return
-    }
-    Send {RButton}
-return   
 
 
 
